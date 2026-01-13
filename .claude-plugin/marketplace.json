@@ -6,7 +6,7 @@
     "url": "https://github.com/wshobson"
   },
   "metadata": {
-    "description": "Production-ready workflow orchestration with 68 focused plugins, 241 specialized agents, and 107 skills - optimized for granular installation and minimal token usage",
+    "description": "Production-ready workflow orchestration with 68 focused plugins, 242 specialized agents, and 107 skills - optimized for granular installation and minimal token usage",
     "version": "1.3.1"
   },
   "plugins": [
@@ -1829,6 +1829,7 @@
       "strict": false,
       "commands": [],
       "agents": [
+        "./agents/cpp-gamedev-pro.md",
         "./agents/game-developer.md",
         "./agents/minecraft-bukkit-pro.md",
         "./agents/unity-developer.md"
