@@ -6,7 +6,7 @@
     "url": "https://github.com/wshobson"
   },
   "metadata": {
-    "description": "Production-ready workflow orchestration with 67 focused plugins, 99 specialized agents, and 107 skills - optimized for granular installation and minimal token usage",
+    "description": "Production-ready workflow orchestration with 68 focused plugins, 241 specialized agents, and 107 skills - optimized for granular installation and minimal token usage",
     "version": "1.3.1"
   },
   "plugins": [
@@ -95,7 +95,8 @@
         "./commands/git-workflow.md"
       ],
       "agents": [
-        "./agents/code-reviewer.md"
+        "./agents/code-reviewer.md",
+        "./agents/git-workflow-manager.md"
       ]
     },
     {
@@ -126,11 +127,15 @@
         "./commands/feature-development.md"
       ],
       "agents": [
+        "./agents/api-designer.md",
         "./agents/backend-architect.md",
+        "./agents/backend-developer.md",
+        "./agents/event-sourcing-architect.md",
         "./agents/graphql-architect.md",
+        "./agents/microservices-architect.md",
         "./agents/tdd-orchestrator.md",
         "./agents/temporal-python-pro.md",
-        "./agents/event-sourcing-architect.md"
+        "./agents/websocket-engineer.md"
       ],
       "skills": [
         "./skills/api-design-principles",
@@ -169,8 +174,10 @@
         "./commands/component-scaffold.md"
       ],
       "agents": [
+        "./agents/electron-pro.md",
         "./agents/frontend-developer.md",
-        "./agents/mobile-developer.md"
+        "./agents/mobile-developer.md",
+        "./agents/ui-designer.md"
       ],
       "skills": [
         "./skills/react-state-management",
@@ -204,10 +211,11 @@
         "./commands/full-stack-feature.md"
       ],
       "agents": [
-        "./agents/test-automator.md",
-        "./agents/security-auditor.md",
+        "./agents/deployment-engineer.md",
+        "./agents/fullstack-developer.md",
         "./agents/performance-engineer.md",
-        "./agents/deployment-engineer.md"
+        "./agents/security-auditor.md",
+        "./agents/test-automator.md"
       ]
     },
     {
@@ -235,8 +243,9 @@
         "./commands/test-generate.md"
       ],
       "agents": [
-        "./agents/test-automator.md",
-        "./agents/debugger.md"
+        "./agents/debugger.md",
+        "./agents/qa-expert.md",
+        "./agents/test-automator.md"
       ]
     },
     {
@@ -323,8 +332,9 @@
         "./commands/context-restore.md"
       ],
       "agents": [
+        "./agents/code-reviewer.md",
         "./agents/legacy-modernizer.md",
-        "./agents/code-reviewer.md"
+        "./agents/refactoring-specialist.md"
       ]
     },
     {
@@ -352,6 +362,7 @@
         "./commands/deps-audit.md"
       ],
       "agents": [
+        "./agents/dependency-manager.md",
         "./agents/legacy-modernizer.md"
       ]
     },
@@ -410,7 +421,9 @@
         "./commands/standup-notes.md"
       ],
       "agents": [
-        "./agents/dx-optimizer.md"
+        "./agents/dx-optimizer.md",
+        "./agents/scrum-master.md",
+        "./agents/slack-expert.md"
       ]
     },
     {
@@ -442,6 +455,9 @@
       ],
       "agents": [
         "./agents/ai-engineer.md",
+        "./agents/llm-architect.md",
+        "./agents/mcp-developer.md",
+        "./agents/nlp-engineer.md",
         "./agents/prompt-engineer.md",
         "./agents/vector-database-engineer.md"
       ],
@@ -481,7 +497,15 @@
         "./commands/improve-agent.md"
       ],
       "agents": [
-        "./agents/context-manager.md"
+        "./agents/agent-organizer.md",
+        "./agents/context-manager.md",
+        "./agents/error-coordinator.md",
+        "./agents/it-ops-orchestrator.md",
+        "./agents/knowledge-synthesizer.md",
+        "./agents/multi-agent-coordinator.md",
+        "./agents/performance-monitor.md",
+        "./agents/task-distributor.md",
+        "./agents/workflow-orchestrator.md"
       ]
     },
     {
@@ -539,6 +563,7 @@
       ],
       "agents": [
         "./agents/data-scientist.md",
+        "./agents/machine-learning-engineer.md",
         "./agents/ml-engineer.md",
         "./agents/mlops-engineer.md"
       ],
@@ -572,8 +597,9 @@
         "./commands/data-pipeline.md"
       ],
       "agents": [
-        "./agents/data-engineer.md",
-        "./agents/backend-architect.md"
+        "./agents/backend-architect.md",
+        "./agents/data-analyst.md",
+        "./agents/data-engineer.md"
       ],
       "skills": [
         "./skills/dbt-transformation-patterns",
@@ -607,8 +633,9 @@
         "./commands/smart-fix.md"
       ],
       "agents": [
-        "./agents/incident-responder.md",
-        "./agents/devops-troubleshooter.md"
+        "./agents/devops-incident-responder.md",
+        "./agents/devops-troubleshooter.md",
+        "./agents/incident-responder.md"
       ],
       "skills": [
         "./skills/incident-runbook-templates",
@@ -703,10 +730,12 @@
         "./commands/slo-implement.md"
       ],
       "agents": [
+        "./agents/chaos-engineer.md",
+        "./agents/database-optimizer.md",
+        "./agents/network-engineer.md",
         "./agents/observability-engineer.md",
         "./agents/performance-engineer.md",
-        "./agents/database-optimizer.md",
-        "./agents/network-engineer.md"
+        "./agents/sre-engineer.md"
       ],
       "skills": [
         "./skills/distributed-tracing",
@@ -739,6 +768,7 @@
       "commands": [],
       "agents": [
         "./agents/deployment-engineer.md",
+        "./agents/terraform-engineer.md",
         "./agents/terraform-specialist.md"
       ]
     },
@@ -793,7 +823,8 @@
       "strict": false,
       "commands": [],
       "agents": [
-        "./agents/kubernetes-architect.md"
+        "./agents/kubernetes-architect.md",
+        "./agents/kubernetes-specialist.md"
       ],
       "skills": [
         "./skills/gitops-workflow",
@@ -827,13 +858,17 @@
       "strict": false,
       "commands": [],
       "agents": [
+        "./agents/azure-infra-engineer.md",
         "./agents/cloud-architect.md",
-        "./agents/kubernetes-architect.md",
-        "./agents/hybrid-cloud-architect.md",
-        "./agents/terraform-specialist.md",
-        "./agents/network-engineer.md",
         "./agents/deployment-engineer.md",
-        "./agents/service-mesh-expert.md"
+        "./agents/hybrid-cloud-architect.md",
+        "./agents/kubernetes-architect.md",
+        "./agents/m365-admin.md",
+        "./agents/network-engineer.md",
+        "./agents/platform-engineer.md",
+        "./agents/service-mesh-expert.md",
+        "./agents/terraform-specialist.md",
+        "./agents/windows-infra-admin.md"
       ],
       "skills": [
         "./skills/cost-optimization",
@@ -871,10 +906,12 @@
         "./commands/workflow-automate.md"
       ],
       "agents": [
+        "./agents/build-engineer.md",
+        "./agents/cloud-architect.md",
         "./agents/deployment-engineer.md",
+        "./agents/devops-engineer.md",
         "./agents/devops-troubleshooter.md",
         "./agents/kubernetes-architect.md",
-        "./agents/cloud-architect.md",
         "./agents/terraform-specialist.md"
       ],
       "skills": [
@@ -969,8 +1006,9 @@
         "./commands/pr-enhance.md"
       ],
       "agents": [
-        "./agents/code-reviewer.md",
         "./agents/architect-review.md",
+        "./agents/architect-reviewer.md",
+        "./agents/code-reviewer.md",
         "./agents/security-auditor.md"
       ]
     },
@@ -1092,6 +1130,7 @@
       "commands": [],
       "agents": [
         "./agents/database-architect.md",
+        "./agents/postgres-pro.md",
         "./agents/sql-pro.md"
       ],
       "skills": [
@@ -1124,8 +1163,9 @@
         "./commands/migration-observability.md"
       ],
       "agents": [
-        "./agents/database-optimizer.md",
-        "./agents/database-admin.md"
+        "./agents/database-admin.md",
+        "./agents/database-administrator.md",
+        "./agents/database-optimizer.md"
       ]
     },
     {
@@ -1155,7 +1195,11 @@
         "./commands/security-dependencies.md"
       ],
       "agents": [
+        "./agents/ad-security-reviewer.md",
+        "./agents/penetration-tester.md",
+        "./agents/powershell-security-hardening.md",
         "./agents/security-auditor.md",
+        "./agents/security-engineer.md",
         "./agents/threat-modeling-expert.md"
       ],
       "skills": [
@@ -1192,6 +1236,7 @@
         "./commands/compliance-check.md"
       ],
       "agents": [
+        "./agents/compliance-auditor.md",
         "./agents/security-auditor.md"
       ]
     },
@@ -1361,9 +1406,10 @@
       "strict": false,
       "commands": [],
       "agents": [
-        "./agents/seo-content-writer.md",
+        "./agents/seo-content-auditor.md",
         "./agents/seo-content-planner.md",
-        "./agents/seo-content-auditor.md"
+        "./agents/seo-content-writer.md",
+        "./agents/seo-specialist.md"
       ]
     },
     {
@@ -1449,11 +1495,13 @@
         "./commands/doc-generate.md"
       ],
       "agents": [
-        "./agents/docs-architect.md",
         "./agents/api-documenter.md",
+        "./agents/docs-architect.md",
+        "./agents/documentation-engineer.md",
         "./agents/mermaid-expert.md",
-        "./agents/tutorial-engineer.md",
-        "./agents/reference-builder.md"
+        "./agents/reference-builder.md",
+        "./agents/technical-writer.md",
+        "./agents/tutorial-engineer.md"
       ],
       "skills": [
         "./skills/openapi-spec-generation",
@@ -1521,11 +1569,13 @@
         "./commands/multi-platform.md"
       ],
       "agents": [
-        "./agents/mobile-developer.md",
-        "./agents/flutter-expert.md",
-        "./agents/ios-developer.md",
-        "./agents/frontend-developer.md",
         "./agents/backend-architect.md",
+        "./agents/flutter-expert.md",
+        "./agents/frontend-developer.md",
+        "./agents/ios-developer.md",
+        "./agents/mobile-app-developer.md",
+        "./agents/mobile-developer.md",
+        "./agents/swift-expert.md",
         "./agents/ui-ux-designer.md"
       ]
     },
@@ -1553,7 +1603,14 @@
       "strict": false,
       "commands": [],
       "agents": [
-        "./agents/business-analyst.md"
+        "./agents/business-analyst.md",
+        "./agents/competitive-analyst.md",
+        "./agents/data-researcher.md",
+        "./agents/market-researcher.md",
+        "./agents/product-manager.md",
+        "./agents/project-manager.md",
+        "./agents/research-analyst.md",
+        "./agents/trend-analyst.md"
       ],
       "skills": [
         "./skills/kpi-dashboard-design",
@@ -1616,8 +1673,10 @@
       "strict": false,
       "commands": [],
       "agents": [
+        "./agents/customer-success-manager.md",
         "./agents/customer-support.md",
-        "./agents/sales-automator.md"
+        "./agents/sales-automator.md",
+        "./agents/sales-engineer.md"
       ]
     },
     {
@@ -1703,6 +1762,7 @@
       "strict": false,
       "commands": [],
       "agents": [
+        "./agents/fintech-engineer.md",
         "./agents/quant-analyst.md",
         "./agents/risk-manager.md"
       ],
@@ -1769,8 +1829,9 @@
       "strict": false,
       "commands": [],
       "agents": [
-        "./agents/unity-developer.md",
-        "./agents/minecraft-bukkit-pro.md"
+        "./agents/game-developer.md",
+        "./agents/minecraft-bukkit-pro.md",
+        "./agents/unity-developer.md"
       ],
       "skills": [
         "./skills/unity-ecs-patterns",
@@ -1802,7 +1863,9 @@
         "./commands/accessibility-audit.md"
       ],
       "agents": [
-        "./agents/ui-visual-validator.md"
+        "./agents/accessibility-tester.md",
+        "./agents/ui-visual-validator.md",
+        "./agents/ux-researcher.md"
       ],
       "skills": [
         "./skills/wcag-audit-patterns",
@@ -1834,9 +1897,9 @@
         "./commands/python-scaffold.md"
       ],
       "agents": [
-        "./agents/python-pro.md",
         "./agents/django-pro.md",
-        "./agents/fastapi-pro.md"
+        "./agents/fastapi-pro.md",
+        "./agents/python-pro.md"
       ],
       "skills": [
         "./skills/async-python-patterns",
@@ -1871,8 +1934,12 @@
         "./commands/typescript-scaffold.md"
       ],
       "agents": [
+        "./agents/angular-architect.md",
         "./agents/javascript-pro.md",
-        "./agents/typescript-pro.md"
+        "./agents/nextjs-developer.md",
+        "./agents/react-specialist.md",
+        "./agents/typescript-pro.md",
+        "./agents/vue-expert.md"
       ],
       "skills": [
         "./skills/typescript-advanced-types",
@@ -1907,10 +1974,10 @@
         "./commands/rust-project.md"
       ],
       "agents": [
-        "./agents/rust-pro.md",
-        "./agents/golang-pro.md",
         "./agents/c-pro.md",
-        "./agents/cpp-pro.md"
+        "./agents/cpp-pro.md",
+        "./agents/golang-pro.md",
+        "./agents/rust-pro.md"
       ],
       "skills": [
         "./skills/rust-async-patterns",
@@ -1942,9 +2009,11 @@
       "strict": false,
       "commands": [],
       "agents": [
+        "./agents/csharp-pro.md",
         "./agents/java-pro.md",
+        "./agents/kotlin-specialist.md",
         "./agents/scala-pro.md",
-        "./agents/csharp-pro.md"
+        "./agents/spring-boot-engineer.md"
       ]
     },
     {
@@ -1970,8 +2039,11 @@
       "strict": false,
       "commands": [],
       "agents": [
+        "./agents/laravel-specialist.md",
         "./agents/php-pro.md",
-        "./agents/ruby-pro.md"
+        "./agents/rails-expert.md",
+        "./agents/ruby-pro.md",
+        "./agents/wordpress-master.md"
       ]
     },
     {
@@ -1997,7 +2069,8 @@
       "strict": false,
       "commands": [],
       "agents": [
-        "./agents/elixir-pro.md"
+        "./agents/elixir-pro.md",
+        "./agents/haskell-pro.md"
       ]
     },
     {
@@ -2053,7 +2126,9 @@
       "strict": false,
       "commands": [],
       "agents": [
-        "./agents/arm-cortex-expert.md"
+        "./agents/arm-cortex-expert.md",
+        "./agents/embedded-systems.md",
+        "./agents/iot-engineer.md"
       ]
     },
     {
@@ -2082,7 +2157,11 @@
       "commands": [],
       "agents": [
         "./agents/bash-pro.md",
-        "./agents/posix-shell-pro.md"
+        "./agents/posix-shell-pro.md",
+        "./agents/powershell-5.1-expert.md",
+        "./agents/powershell-7-expert.md",
+        "./agents/powershell-module-architect.md",
+        "./agents/powershell-ui-architect.md"
       ],
       "skills": [
         "./skills/bash-defensive-patterns/SKILL.md",
@@ -2116,7 +2195,9 @@
       "strict": false,
       "commands": [],
       "agents": [
-        "./agents/monorepo-architect.md"
+        "./agents/cli-developer.md",
+        "./agents/monorepo-architect.md",
+        "./agents/tooling-engineer.md"
       ],
       "skills": [
         "./skills/git-advanced-workflows",
@@ -2138,7 +2219,7 @@
       "description": "Binary reverse engineering, malware analysis, firmware security, and software protection research for authorized security research, CTF competitions, and defensive security",
       "version": "1.0.0",
       "author": {
-        "name": "Dávid Balatoni",
+        "name": "D\u00e1vid Balatoni",
         "url": "https://github.com/balcsida"
       },
       "homepage": "https://github.com/wshobson/agents",
